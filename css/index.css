@@ -4,8 +4,8 @@
     padding: 0%;
     box-sizing: border-box;
 }
-body{ 
-    background: bisque;
+body{
+    background: rgb(117, 175, 206);
     min-height: 100vh;
     width: 100%;
 }
