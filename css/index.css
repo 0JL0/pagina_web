@@ -1,29 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Josefin+Sans:wght@300&family=Montserrat:wght@100&display=swap');
 *{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
 }
 body{
-    background-image: url(../img/fondo.jpg);
+    background: burlywood;
     min-height: 100vh;
     width: 100%;
 }
 .container {
     display: flex;
-    width: 95%;
-    background: linear-gradient(rgba(5, 12, 0, 0.30), rgba(5, 12, 0, 0.30));    
+    width: 94%;
+    background: url(../img/fondo.jpg);
     border-radius: 15px;
     align-items: center;
     padding: 7px;
     justify-content: space-between;
     margin: auto;
-    margin-top: 200px;
+    margin-top: 100px;
 }
 .iconos{
-    display: flex;
     margin-top: 5px;
-    font-size: 1.80em;
+    font-size: 2em;
 }
 .logito{
     display: flex;
@@ -39,23 +38,32 @@ body{
     flex-direction: column;
     height: 50vh;
     margin: 5%;
+    font-family: 'Montserrat', sans-serif;
 
 }
 .titulo{
     display: flex;
     font-family: 'Fascinate Inline', cursive;
-    font-size: 8em;
+    font-size: 6em;
 }
 .boton{
-    display: flex;
     background: black;
-    color: #D3D3D3;
+    color: #FFFF;
     border-radius: 7px;
     padding: 8px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+    transition:  0.3s;
+    border-style: none;
+    font-size: 14px;
+
+}
+.boton:hover{
+    background: cadetblue;
 }
 .menu{
     display: flex;
-    font-size: 1.25em;
     margin-top: 6px;
     width: 95%; 
     align-items: center;
@@ -63,6 +71,9 @@ body{
     justify-content: space-between;
     margin: auto;
     padding: 15px;
-    font-size: 1.50em;
+    font-size: 1.35em;
+}
+.bx-menu{
+    cursor: pointer;
 }
     
