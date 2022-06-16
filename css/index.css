@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{ 
-    background-image: url(/img/visito.jpg);
+    background-image: url(/img/fondo.png);
     min-height: 100vh;
     width: 100%;
 }
@@ -15,10 +15,10 @@ body{
     background: linear-gradient(rgba(5, 12, 0, 0.30), rgba(5, 12, 0, 0.30));    
     border-radius: 15px;
     align-items: center;
-    padding: 5px;
+    padding: 6px;
     justify-content: space-between;
     margin: auto;
-    margin-top: 200px;
+    margin-top: 210px;
 }
 .iconos{
     display: flex;
@@ -56,7 +56,7 @@ body{
 .menu{
     display: flex;
     font-size: 1.25em;
-    margin-top: 5px;
+    margin-top: 6px;
     width: 95%; 
     align-items: center;
     padding: 5px;
