@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{ 
+    background-image: url(/img/visito.jpg);
+    min-height: 100vh;
+    width: 100%;
+}
+.container {
+    display: flex;
+    width: 95%;
+    background: linear-gradient(rgba(5, 12, 0, 0.30), rgba(5, 12, 0, 0.30));    
+    border-radius: 15px;
+    align-items: center;
+    padding: 5px;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 200px;
+}
+.iconos{
+    display: flex;
+    margin-top: 5px;
+    font-size: 1.80em;
+}
+.logito{
+    display: flex;
+    width: 35px;
+    margin-left: 5px;
+    margin-top: center;
+}
+.letra{
+    display: flex;
+    justify-content: center;
+    text-align:  center;
+    align-items: center;
+    flex-direction: column;
+    height: 50vh;
+    margin: 5%;
+
+}
+.titulo{
+    display: flex;
+    font-family: 'Fascinate Inline', cursive;
+    font-size: 6em;
+}
+.boton{
+    display: flex;
+    background: black;
+    color: #D3D3D3;
+    border-radius: 7px;
+    padding: 5px;
+}
+.menu{
+    display: flex;
+    font-size: 1.25em;
+    margin-top: 5px;
+    width: 95%; 
+    align-items: center;
+    padding: 5px;
+    justify-content: space-between;
+    margin: auto;
+    padding: 15px;
+    font-size: 1.50em;
+}
+    

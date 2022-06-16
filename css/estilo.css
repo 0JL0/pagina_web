@@ -1,0 +1,55 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(60deg, #64b3f4 0%, #c2e59c 100%);
+    min-height: 100vh;
+    width: 100%;
+    display: flex; 
+}
+.form{
+    background-color:azure;
+    width: 90%;
+    display: flex;
+    margin:auto;
+    max-width: 400px;
+    border-radius: 2em;
+    padding: 3.5em 1.5em;
+}
+.form_container{
+    display: grid;
+    width: 100%;
+    gap: 1em;
+    grid-auto-columns: 100%;
+}
+.form_title{
+    text-align: center;
+    font-size: 1.9rem;
+    margin-bottom: .4em;
+
+}
+.form_input--message{
+    resize: none;
+    padding: 1.8em 1em;
+    border-radius: 1em;
+}
+.form_cta{
+    font-size: 1rem;
+    background-color: black;
+    color: #ffff;
+    border-radius: 1em;
+    font-weight: 300;
+    padding: .7em 0;
+    border: none;
+    cursor: pointer;
+
+}
+.form_input{
+    border-radius: 1em;
+    font-size: 1rem;
+    padding: .8em 1em;
+
+}
