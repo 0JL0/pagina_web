@@ -15,10 +15,10 @@ body{
     background: linear-gradient(rgba(5, 12, 0, 0.30), rgba(5, 12, 0, 0.30));    
     border-radius: 15px;
     align-items: center;
-    padding: 6px;
+    padding: 7px;
     justify-content: space-between;
     margin: auto;
-    margin-top: 210px;
+    margin-top: 200px;
 }
 .iconos{
     display: flex;
@@ -44,14 +44,14 @@ body{
 .titulo{
     display: flex;
     font-family: 'Fascinate Inline', cursive;
-    font-size: 6em;
+    font-size: 8em;
 }
 .boton{
     display: flex;
     background: black;
     color: #D3D3D3;
     border-radius: 7px;
-    padding: 5px;
+    padding: 8px;
 }
 .menu{
     display: flex;
