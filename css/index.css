@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background: #f0f8ff;
+    background: #F0FFFF;
     min-height: 100vh;
     width: 100%;
 }
@@ -15,7 +15,7 @@ body{
     background: url(../img/fondo.jpg);
     border-radius: 15px;
     align-items: center;
-    padding: 7px;
+    padding: 4px;
     justify-content: space-between;
     margin: auto;
     margin-top: 200px;
@@ -49,11 +49,12 @@ body{
     margin-top: center;
 }
 .redes{
-    display: flex;
-    font-size: 0.6em;
-    font-family: 'Raleway', sans-serif;
-    margin-top: 5px;
-    color: ;
+    font-size: 0.45em;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 6px;
+    color: #F0FFFF;
+    position: relative; left: -5%;
+
 }
 .letra{
     display: flex;
@@ -75,31 +76,27 @@ body{
     background: black;
     color: #FFFF;
     border-radius: 7px;
-    padding: 8px;
+    padding: 5px;
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
     cursor: pointer;
     transition:  0.3s;
     border-style: none;
-    font-size: 14px;
+    font-size: 0.6em;
 }
 .boton:hover{
     background: #20B2AA;
     box-shadow: 0 0 10px #20B2AA, 0 0 40px #20B2AA, 0 0 80px #20B2AA;
     transition: 1s;
-
-
 }
 .menu{
     display: flex;
-    margin-top: 6px;
     width: 95%; 
-    align-items: center;
-    padding: 5px;
+    align-items: center;    
     justify-content: space-between;
     margin: auto;
     padding: 15px;
-    font-size: 1.4em;
+    font-size: 1.3em;
 }
 .bx-menu{
     cursor: pointer;
