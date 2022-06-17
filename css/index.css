@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Josefin+Sans:wght@300&family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Montserrat:wght@100&family=Raleway:wght@500&display=swap');
 *{
     margin: 0%;
     padding: 0%;
@@ -21,14 +21,39 @@ body{
     margin-top: 200px;
 }
 .iconos{
+    display: flex;
     margin-top: 5px;
     font-size: 2em;
+}
+.bx{
+    color: black;
+}
+.youtube:hover{
+    color: red;
+}
+.facebook:hover{
+    color:#1E90FF;
+}
+.instagram:hover{
+    background: #471485;
+    background: -webkit-linear-gradient(to right, #471485, #f20707, #FFD700);
+    background-image: linear-gradient(to right, #471485, red, #FFD700); 
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
 }
 .logito{
     display: flex;
     width: 35px;
     margin-left: 5px;
     margin-top: center;
+}
+.redes{
+    display: flex;
+    font-size: 0.6em;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 5px;
+    color: ;
 }
 .letra{
     display: flex;
@@ -51,16 +76,19 @@ body{
     color: #FFFF;
     border-radius: 7px;
     padding: 8px;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
     text-decoration: none;
     cursor: pointer;
     transition:  0.3s;
     border-style: none;
     font-size: 14px;
-
 }
 .boton:hover{
-    background: cadetblue;
+    background: #20B2AA;
+    box-shadow: 0 0 10px #20B2AA, 0 0 40px #20B2AA, 0 0 80px #20B2AA;
+    transition: 1s;
+
+
 }
 .menu{
     display: flex;
@@ -71,7 +99,7 @@ body{
     justify-content: space-between;
     margin: auto;
     padding: 15px;
-    font-size: 1.35em;
+    font-size: 1.4em;
 }
 .bx-menu{
     cursor: pointer;
