@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background: #F0FFFF;
+    background: #DCDCDC;
     min-height: 100vh;
     width: 100%;
 }
@@ -73,32 +73,101 @@ body{
     font-size: 6em;
 }
 .boton{
+    justify-content: right;
     background: black;
     color: #FFFF;
-    border-radius: 7px;
-    padding: 5px;
+    border-radius: 8px;
+    padding: 3px;
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
     cursor: pointer;
     transition:  0.3s;
-    border-style: none;
-    font-size: 0.6em;
+    font-size: 0.8em;
+    border-color: transparent;
+
 }
 .boton:hover{
     background: #20B2AA;
     box-shadow: 0 0 10px #20B2AA, 0 0 40px #20B2AA, 0 0 80px #20B2AA;
     transition: 1s;
 }
-.menu{
+.button{
     display: flex;
-    width: 95%; 
-    align-items: center;    
-    justify-content: space-between;
-    margin: auto;
+    justify-content: right;
     padding: 15px;
+    padding-right: 40px;
+}
+.barra{
+    width: 10%;
+    height: 9%;
+    position: fixed;
+    transition: .4s all;
+    z-index: 1;
+    border-radius: 17px;
+}
+.barra ul{
+    padding: 0px;
+    text-align: center;
+}
+.barra li{
+    transition: .3s all;
+    
+}
+.barra a{
+    text-decoration: none;
+    list-style: none;
+    transition: .3s all;
+    padding: 0px;
+    font-size: 0px;
+}
+
+.barra h1{
+    text-align: center;
+    color: white;
+    padding: 7px;
+    padding-bottom: 7px;
+
+    font-size: 0px;
+}
+.barra i{
+    padding-top: 15px;
+    padding-left: 40px;
     font-size: 1.3em;
 }
-.bx-menu{
-    cursor: pointer;
+.barra:hover{
+    width: 25%;
+    height: 70%;
+
+    background-color: black;
 }
-    
+
+.barra:hover h1{
+    padding: 15px;
+    font-size: 35px;
+
+}
+.barra:hover a{
+    font-size: 20px;
+    color: white;
+
+    display: block;
+    padding: 20px;
+
+}
+.barra:hover i{
+    height: 0px;
+}
+.barra:hover li{
+    border-top: 1px solid black;
+
+    width: 100%;
+}
+.barra:hover ul:last-of-type{
+    border-bottom: 1px solid black;
+}
+
+.barra:hover a:hover{
+    font-size: 25px;
+    padding:30px 0px;
+    background-color: #5F9EA0;
+}
